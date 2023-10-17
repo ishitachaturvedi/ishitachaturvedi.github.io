@@ -1,10 +1,4 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Ishita Chaturvedi
-    - name: Languages
-      value: English, Hindi
+- title: Ishita Chaturvedi
 
 - title: Education
   type: time_table
@@ -34,13 +28,13 @@
         
     - title: Research Intern
       institution: Microsoft Research, Seattle
-      year: May 2022 - July 2022
+      year: Summer 2022
       description:
         - Worked on memory disaggregation on the Azure data-center to improve hardware resource utilization.
 
     - title: Software Developer
       institution: Simyog Technology, Bangalore
-      year: June 2019 - May 2020
+      year: 2019 - 2020
       description: 
         - Worked on expediting code by hardware-based acceleration methods such as cache optimization and Vectorization.
         - Achieved a speedup of 6x on major code bottlenecks and a full flow speedup of 2x.
