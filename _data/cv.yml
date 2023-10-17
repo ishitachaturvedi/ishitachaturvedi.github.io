@@ -55,16 +55,6 @@
       items: 
         - National Initiative on Undergraduate Science Fellow, Government of India
 
-- title: Other Activities
-  type: nested_list
-  contents:
-    - title: Ideas, Research and Innovation Society
-      items: 
-        - Founder and Chair of the first science Think-Tank at Delhi University to promote undergraduate research and discussion of exciting questions, theorems, and proofs.
-    - title: Asian Regional Space Settlement Design Competition
-      items:
-        - I mentor teams of sixty international high school students through a competition which simulates an industry setting for a space settlement proposal!
-
 - title: Skills
   type: nested_list
   contents:
