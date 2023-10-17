@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I will be interning at Microsoft Research this summer working with Azure! I will be working on memory diagreggation at Azure to improve the hardware utilization to make datacenters greener :sparkles: :smile:
+I will be interning at Microsoft Research this summer working with Azure! I will be working on memory diagreggation at Azure to improve the hardware utilization to make datacenters greener :smile:
 
 ***
 
