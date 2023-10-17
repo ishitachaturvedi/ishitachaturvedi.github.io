@@ -75,8 +75,8 @@
   type: nested_list
   contents:
     - title: Programming Languages
-    items:
-      - C++, C, Python, CUDA, Java, Verilog, Assembly, \LaTeX, HTML
+      items:
+        - C++, C, Python, CUDA, Java, Verilog, Assembly, \LaTeX, HTML
     - title: Working Environment
-    items:
-      - Linux Shel, Git, SVN, Tmux, Vim
+      items:
+        - Linux Shel, Git, SVN, Tmux, Vim
