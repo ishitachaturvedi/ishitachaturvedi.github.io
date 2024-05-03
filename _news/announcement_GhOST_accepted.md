@@ -1,7 +1,7 @@
 ---
 layout: post
-title: I am interning at AMD Research!
-date: 2024-02-17 16:11:00-0400
+title: GhOST has been accepted to ISCA'24!
+date: 2024-05-03 16:11:00-0400
 inline: false
 related_posts: false
 ---
