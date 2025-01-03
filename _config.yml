@@ -120,7 +120,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Pipelines and Pathways # blog_name will be displayed in your blog page
+blog_name: Beyond the Bench # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 permalink: /blog/:year/:title/
 

@@ -4,7 +4,7 @@ title:  My journey into graduate school
 date:   2025-01-03 16:40:16
 description: 
 tags: grad-school
-categories: sample-posts
+categories: posts
 ---
 
 Applying to graduate school is a journey. If you are on this path, it can be an exciting experience, and I wish you the best of luck with your applications!
