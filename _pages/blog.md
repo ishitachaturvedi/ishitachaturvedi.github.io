@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: Pipelines and Pathways
+title: Blog
 nav: true
 nav_order: 1
 pagination:
@@ -16,6 +16,8 @@ pagination:
     after: 3
 ---
 
+{% block content %}
 <ul>
     <li><a href="https://ishitachaturvedi.github.io/blog/2025/Applying-to-gradschool/">My journey into graduate school</a></li>
 </ul>
+{% endblock %}
