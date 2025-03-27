@@ -1,0 +1,9 @@
+---
+layout: post
+title: Gave an invited talk at IIT Bombay-CSE. Thanks Biswa!
+date: 2025-01-6 16:11:00-0400
+inline: false
+related_posts: false
+---
+
+I gave an invited talk at IIT Bombay on our ISCA work <a href="https://liberty.cs.princeton.edu/Publications/isca24_ghost.pdf">GhOST:A GPU Out-of-Order Scheduling Technique for Stall Reduction</a>. A big thank you to Prof. Biswabandhan Panda and the CASPER Research Group for hosting me!
