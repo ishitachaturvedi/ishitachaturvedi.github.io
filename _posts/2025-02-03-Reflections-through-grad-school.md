@@ -22,7 +22,7 @@ So, I took the only rational step: at ASPLOS'23 and ISCA'23, I cornered every fa
 
 CPUs emerged as a natural next step. I'd always found parallelism fascinating. GhOST had clearly shown us there was still untapped performance in existing architectures. So if going deep (with OoO) on a wide machine (many threads) had its benefits on the GPU, why don't we go wide (more SMT) on deep machines (OoO) on the CPU? Great! But how exactly?
 
-That's when I hit another wall: scaling CPU threads isn’t limited by usefulness, but by area and power—OoO execution is resource-intensive. What if we combined OoO and InO threads in the same core, creating a truly asymmetric SMT CPU? The idea of mixing thread types, which run simulanesouly, sharing front-end and back-end resources, seemed genuinely exciting (and mildly terrifying). Now the real question emerged: how on earth do I build this?
+That's when we hit another wall: scaling CPU threads isn’t limited by usefulness, but by area and power—OoO execution is resource-intensive. What if we combined OoO and InO threads in the same core, creating a truly asymmetric SMT CPU? The idea of mixing thread types, which run simulanesouly, sharing front-end and back-end resources, seemed genuinely exciting (and mildly terrifying). Now the real question emerged: how on earth do I build this?
 
 
 <h2> Implementing the idea </h2>
