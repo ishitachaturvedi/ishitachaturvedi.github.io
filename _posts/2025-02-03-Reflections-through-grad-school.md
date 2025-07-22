@@ -20,7 +20,7 @@ There was just one issue, I had no idea what problem to tackle next.
 
 So, I took the only rational step: at ASPLOS'23 and ISCA'23, I cornered every faculty member I could find and picked their brains. They were incredibly generous with their time, patient with my wild ideas, and straightforward in their feedback. They suggested exploring sparsity on GPUs (but I wanted a GPU break), edge computing (no suitable simulator at the time, and I didn't want to build one from scratch), or building accelerators (which didn’t excite me back then).
 
-CPUs emerged as a natural next step. I'd always found parallelism fascinating, and research on SMT for CPUs seemed to have grown stagnant. The industry was trending towards many-core systems and diversity. However, GhOST had clearly shown me there was still untapped performance in existing architectures. I thought: Going deep (with OoO) on a wide machine (many threads) had its benefits on te GPU, why dont we go wide (more SMT) on deep machines (OoO) on the CPU? But how exactly?
+CPUs emerged as a natural next step. I'd always found parallelism fascinating, and research on SMT for CPUs seemed to have grown stagnant. The industry was trending towards many-core systems and diversity. However, GhOST had clearly shown us there was still untapped performance in existing architectures. I thought: Going deep (with OoO) on a wide machine (many threads) had its benefits on te GPU, why dont we go wide (more SMT) on deep machines (OoO) on the CPU? But how exactly?
 
 That's when I hit another wall: scaling CPU threads isn’t limited by usefulness, but by area and power—OoO execution is resource-intensive. What if we combined OoO and InO threads in the same core, creating a truly asymmetric SMT CPU? The idea of mixing thread types, which run simulanesouly, sharing front-end and back-end resources, seemed genuinely exciting (and mildly terrifying). Now the real question emerged: how on earth do I build this?
 
@@ -47,7 +47,7 @@ Digging deeper into the system I’d barely gotten working, I discovered optimiz
 
 <h2> Understand the system </h2>
 
-After nearly two years of intense building, testing, debugging, and hoping for the best, I could finally start understanding SHADOW’s dynamics. Now we had to answer the fun questions: What truly drives SHADOW’s performance gains? Which applications benefit most, and under what thread configurations? How should threads distribute workloads (static or dynamic)? Is SHADOW configurable per application?—and if so, how? all of which we answered.
+After nearly two years of intense building, testing, debugging, and hoping for the best, we could finally start understanding SHADOW’s dynamics. Now we had to answer the fun questions: What truly drives SHADOW’s performance gains? Which applications benefit most, and under what thread configurations? How should threads distribute workloads (static or dynamic)? Is SHADOW configurable per application?—and if so, how? all of which we answered.
 
 
 SHADOW was a passion project born from genuine curiosity. I sincerely wanted to understand the impact of asymmetric SMT. Ultimately, we uncovered intriguing insights about parallelism, thread behavior, and CPU architecture. It was rejected from ISCA'25, but it is a relief that SHADOW is out in MICRO'25. It will read like everything was obvious, but now you know that was far from the truth.
