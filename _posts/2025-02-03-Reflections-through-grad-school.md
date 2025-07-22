@@ -32,7 +32,7 @@ To put it bluntly, implementing SHADOW was painful. Gem5 emerged as my simulator
 Debugging this infrastructure drained every ounce of energy and patience I had, taking a full year. Only after this was complete could my actual research begin. And just when I thought the hardest part was over, another big question hit: <b>Which applications would actually benefit?</b>
 
 
-<h2> Finding the workloads <h/2>
+<h2> Finding the workloads </h2>
 
 Having built the infrastructure, the idea needed fleshing out. Should each thread run a single-threaded application? Should we prioritize OoO threads for foreground processes, relegating InO threads to background tasks? How would we ensure QoS? Or maybe all threads should run the same multi-threaded process? After significant deliberation, we decided the last approach was most practical for testing SHADOW. But then, another question appeared: which applications?
 
