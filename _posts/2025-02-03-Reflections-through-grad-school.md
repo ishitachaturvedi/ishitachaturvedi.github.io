@@ -13,7 +13,7 @@ The purpose of this blog post is to give a behind-the-scenes look at what it too
 
 <h2> Getting an idea </h2>
 
-After finishing, [GhOST](https://liberty.princeton.edu/Publications/isca24_ghost.pdf) took three additional paper cycles to publish after completion. I realized I'd saturated my curiosity about GPU microarchitecture. I had explored GPUs deeply, grasped their microarchitecture, programming model, and memory behavior, and could clearly visualize their execution flow. It was time for a new direction.
+[GhOST](https://liberty.princeton.edu/Publications/isca24_ghost.pdf) took three additional paper cycles to publish after completion. And I realized I'd saturated my curiosity about GPU microarchitecture. I had explored GPUs deeply, grasped their microarchitecture, programming model, and memory behavior, and could clearly visualize their execution flow. It was time for a new direction.
 
 There was just one issue, I had no idea what problem to tackle next.
 
