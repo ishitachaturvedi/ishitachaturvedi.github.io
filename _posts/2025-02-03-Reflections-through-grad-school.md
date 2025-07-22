@@ -7,9 +7,9 @@ tags: grad-school
 categories: posts
 ---
 
- Every published paper has a story. In research, we often sell our work as a neat, straight line. To readers, it might seem that the problem was obvious, the solution insightful, the implementation straightforward, and the results amazing—leading effortlessly to a great paper. My experience (and perhaps yours, too!) couldn’t be farther from this idealized image.
+ Every published paper has a story. In research, we often sell our work as a neat, straight line. To readers, it might seem that the problem was obvious, the solution insightful, the implementation straightforward, and the results amazing—leading effortlessly to a great paper. My experience (and perhaps yours, too) couldn’t be farther from this idealized image.
 
-The purpose of this blog post is to give a behind-the-scenes look at what it took to publish our MICRO'25 paper, [SHADOW: Simultaneous Multi-Threading Architecture with Asymmetric Threads]({{ '/assets/pdf/SHADOW_MICRO.pdf' | relative_url }}). The journey to publication was a challenging yet deeply rewarding experience, one I'm truly passionate about sharing.
+The purpose of this blog post is to give a behind-the-scenes look at what it took to publish our MICRO'25 paper, [SHADOW: Simultaneous Multi-Threading Architecture with Asymmetric Threads]({{ '/assets/pdf/SHADOW_MICRO.pdf' | relative_url }}). The journey to publication was a challenging yet deeply rewarding experience.
 
 <h2> Getting an idea </h2>
 
