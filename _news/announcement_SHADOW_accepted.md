@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SHADOW has been accepted to MICRO'25!
-date: 2024-05-02 16:11:00-0400
+date: 2025-07-14 16:11:00-0400
 inline: false
 related_posts: false
 ---
