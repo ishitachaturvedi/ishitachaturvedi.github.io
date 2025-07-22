@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student @ Princeton University
+subtitle: Next gen HW/SW co-design @ Cerebras Systems
 
 profile:
   align: right
